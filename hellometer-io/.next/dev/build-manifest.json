@@ -4,22 +4,22 @@
   },
   "devFiles": [],
   "polyfillFiles": [
-    "static/chunks/3982e_next_dist_build_polyfills_polyfill-nomodule.js"
+    "static/chunks/c83f7_next_dist_build_polyfills_polyfill-nomodule.js"
   ],
   "lowPriorityFiles": [
     "static/development/_ssgManifest.js",
     "static/development/_buildManifest.js"
   ],
   "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_777a6fc8._.js",
-    "static/chunks/3982e_next_dist_compiled_react-dom_81297c70._.js",
-    "static/chunks/3982e_next_dist_compiled_react-server-dom-turbopack_c7f225ab._.js",
-    "static/chunks/3982e_next_dist_compiled_next-devtools_index_42600e84.js",
-    "static/chunks/3982e_next_dist_compiled_8f2dfce6._.js",
-    "static/chunks/3982e_next_dist_client_ea027eb6._.js",
-    "static/chunks/3982e_next_dist_75945cbc._.js",
-    "static/chunks/03988_@swc_helpers_cjs_673b4c1e._.js",
-    "static/chunks/hellometer-io_a0ff3932._.js",
-    "static/chunks/turbopack-hellometer-io_3a4851c8._.js"
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_f1363049._.js",
+    "static/chunks/c83f7_next_dist_compiled_react-dom_bb0b93cf._.js",
+    "static/chunks/c83f7_next_dist_compiled_react-server-dom-turbopack_466f72fa._.js",
+    "static/chunks/c83f7_next_dist_compiled_next-devtools_index_761cc60d.js",
+    "static/chunks/c83f7_next_dist_compiled_7d23ac60._.js",
+    "static/chunks/c83f7_next_dist_client_3e83af2b._.js",
+    "static/chunks/c83f7_next_dist_c0137b60._.js",
+    "static/chunks/b38c1_@swc_helpers_cjs_7ee0e5ea._.js",
+    "static/chunks/Desktop_repos_hellometer_repos_hellometer-public-website_hellometer-io_a0ff3932._.js",
+    "static/chunks/88e7d_repos_hellometer_repos_hellometer-public-website_hellometer-io_9ed98d93._.js"
   ]
 }

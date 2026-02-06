@@ -1,7 +1,4 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
-  "/products/drive-thru-timer/page": "app/products/drive-thru-timer/page.js",
-  "/products/kitchen-monitoring/page": "app/products/kitchen-monitoring/page.js",
-  "/products/loss-prevention/page": "app/products/loss-prevention/page.js"
+  "/page": "app/page.js"
 }

@@ -8,7 +8,7 @@ export default function Logo({ scrolled = false }: { scrolled?: boolean }) {
       <div className="w-[200px] flex items-center justify-center relative">
         {/* Glyph - shown when scrolled or on mobile */}
         <Image
-          src="/images/hellometer_glyph.svg"
+          src="/images/logos/hellometer_glyph.svg"
           alt="Hellometer"
           width={32}
           height={32}
@@ -20,7 +20,7 @@ export default function Logo({ scrolled = false }: { scrolled?: boolean }) {
         />
         {/* Full logo - shown at top on desktop */}
         <Image
-          src="/images/hellometer_darkgreylogo.svg"
+          src="/images/logos/hellometerCV_whitelogo.svg"
           alt="Hellometer"
           width={200}
           height={53}

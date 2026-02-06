@@ -1,22 +1,10 @@
 {
   "app": {
-    "[project]/hellometer-io/app/_not-found/page": [
+    "[project]/Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/app/_not-found/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
       "static/media/2a65768255d6b625-s.p.d19752fb.woff2"
     ],
-    "[project]/hellometer-io/app/page": [
-      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
-      "static/media/2a65768255d6b625-s.p.d19752fb.woff2"
-    ],
-    "[project]/hellometer-io/app/products/drive-thru-timer/page": [
-      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
-      "static/media/2a65768255d6b625-s.p.d19752fb.woff2"
-    ],
-    "[project]/hellometer-io/app/products/kitchen-monitoring/page": [
-      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
-      "static/media/2a65768255d6b625-s.p.d19752fb.woff2"
-    ],
-    "[project]/hellometer-io/app/products/loss-prevention/page": [
+    "[project]/Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/app/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
       "static/media/2a65768255d6b625-s.p.d19752fb.woff2"
     ]
