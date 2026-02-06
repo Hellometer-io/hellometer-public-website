@@ -1,0 +1,13 @@
+__turbopack_load_page_chunks__("/_app", [
+  "static/chunks/3982e_next_dist_compiled_d2a038e0._.js",
+  "static/chunks/3982e_next_dist_shared_lib_11731a18._.js",
+  "static/chunks/3982e_next_dist_client_b9abc114._.js",
+  "static/chunks/3982e_next_dist_541fc3df._.js",
+  "static/chunks/3982e_next_app_fe5aec68.js",
+  "static/chunks/[next]_entry_page-loader_ts_7b87c079._.js",
+  "static/chunks/407b4_react-dom_460c1132._.js",
+  "static/chunks/39a39__pnpm_050892ed._.js",
+  "static/chunks/[root-of-the-server]__53dcc946._.js",
+  "static/chunks/hellometer-io_pages__app_2da965e7._.js",
+  "static/chunks/turbopack-hellometer-io_pages__app_a8e9db07._.js"
+])
