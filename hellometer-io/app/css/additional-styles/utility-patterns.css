@@ -53,7 +53,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .form-select,
 .form-checkbox,
 .form-radio {
-    @apply rounded-xs border border-slate-200 focus:ring-0 focus:ring-offset-0;
+    @apply rounded-xs border border-silver focus:ring-0 focus:ring-offset-0;
 }
 
 .form-input,

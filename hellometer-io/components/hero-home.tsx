@@ -1,9 +1,7 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
-import VideoThumb from '@/public/images/in-store-monitor.jpg'
-import ModalVideo01 from '@/components/modal-video-01'
 
 /**
  * Home Page Hero Section
@@ -24,6 +22,36 @@ export default function HeroHome() {
   // Track current adjective index and fade state
   const [currentIndex, setCurrentIndex] = useState(0)
   const [fade, setFade] = useState(true)
+
+  // Video carousel
+  const videos = [
+    { src: '/videos/drivethru_monitor.mp4', label: 'Drive-Thru', href: '/products/drive-thru-timer' },
+    { src: '/videos/video_monitor.mp4', label: 'Video Security', href: '/products/loss-prevention' },
+    { src: '/videos/make_line_kitchen.mp4', label: 'Back of House', href: '/products/kitchen-monitoring' },
+  ]
+  const [activeVideo, setActiveVideo] = useState(0)
+  const videoRefs = useRef<(HTMLVideoElement | null)[]>([])
+
+  // Play active video, pause others
+  useEffect(() => {
+    videoRefs.current.forEach((video, i) => {
+      if (!video) return
+      if (i === activeVideo) {
+        video.play()
+      } else {
+        video.pause()
+        video.currentTime = 0
+      }
+    })
+  }, [activeVideo])
+
+  // Auto-advance every 5 seconds
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setActiveVideo((prev) => (prev + 1) % videos.length)
+    }, 10000)
+    return () => clearInterval(timer)
+  }, [videos.length])
 
   // Cycle through adjectives every 5 seconds with fade animation
   useEffect(() => {
@@ -55,7 +83,7 @@ export default function HeroHome() {
             <div className="text-center md:text-left md:min-w-[30rem]" data-aos="fade-right">
               <h1 className="h1 font-inter text-slate-100 mb-4 font-bold min-h-[9rem] md:min-h-0">
                 Making Quick Service{' '}
-                <span className={`italic transition-opacity duration-600 ${fade ? 'opacity-100' : 'opacity-0'}`} style={{ color: '#2897EC' }}>
+                <span className={`italic transition-opacity duration-600 text-blue-500 ${fade ? 'opacity-100' : 'opacity-0'}`}>
                   {adjectives[currentIndex]}
                 </span>
               </h1>
@@ -69,15 +97,41 @@ export default function HeroHome() {
               </div>
             </div>
 
-            {/* Hero image */}
-            <ModalVideo01
-              thumb={VideoThumb}
-              thumbWidth={540}
-              thumbHeight={405}
-              thumbAlt="Modal video thumbnail"
-              video="/videos/MONITOR_252.mp4"
-              videoWidth={1920}
-              videoHeight={1080} />            
+            {/* Hero video carousel */}
+            <div className="shrink-0" data-aos="fade-left">
+              <div className="relative">
+                <div className="absolute inset-0 pointer-events-none border-2 border-slate-700 mt-3 ml-3 translate-x-4 translate-y-4 -z-10" aria-hidden="true"></div>
+                <Link href={videos[activeVideo].href} className="block relative w-135 max-w-full overflow-hidden cursor-pointer">
+                  {videos.map((video, i) => (
+                    <video
+                      key={video.src}
+                      ref={(el) => { videoRefs.current[i] = el }}
+                      className={`w-full transition-opacity duration-500 pointer-events-none ${i === activeVideo ? 'opacity-100 relative' : 'opacity-0 absolute inset-0'}`}
+                      muted
+                      playsInline
+                    >
+                      <source src={video.src} type="video/mp4" />
+                    </video>
+                  ))}
+                </Link>
+                {/* Carousel indicators */}
+                <div className="flex justify-center gap-3 mt-4">
+                  {videos.map((video, i) => (
+                    <button
+                      key={video.src}
+                      onClick={() => setActiveVideo(i)}
+                      className={`px-3 py-1 text-sm rounded-full transition-all duration-200 ${
+                        i === activeVideo
+                          ? 'bg-blue-600 text-white'
+                          : 'bg-slate-700 text-silver hover:bg-slate-600'
+                      }`}
+                    >
+                      {video.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>            
 
           </div>
 

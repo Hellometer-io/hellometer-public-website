@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="bg-almost-black">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Top area: Blocks */}
@@ -18,72 +18,72 @@ export default function Footer() {
                 </svg>
               </Link>
             </div>
-            <div className="text-lg font-bold text-slate-800">The smarter way to start your next idea.</div>
+            <div className="text-lg font-bold text-slate-100">The smarter way to start your next idea.</div>
           </div>
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-sm text-slate-800 font-semibold mb-2">How it works</h6>
+            <h6 className="text-sm text-slate-100 font-semibold mb-2">How it works</h6>
             <ul className="text-sm font-medium space-y-2">
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Overview</a>
+                <a href="#" className="text-silver hover:text-blue-600 transition duration-150 ease-in-out">Overview</a>
               </li>
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Pricing</a>
+                <a href="#" className="text-silver hover:text-blue-600 transition duration-150 ease-in-out">Pricing</a>
               </li>
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Service Areas</a>
+                <a href="#" className="text-silver hover:text-blue-600 transition duration-150 ease-in-out">Service Areas</a>
               </li>
             </ul>
           </div>
 
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-sm text-slate-800 font-semibold mb-2">Resources</h6>
+            <h6 className="text-sm text-slate-100 font-semibold mb-2">Resources</h6>
             <ul className="text-sm font-medium space-y-2">
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Customer Stories</a>
+                <a href="#" className="text-silver hover:text-blue-600 transition duration-150 ease-in-out">Customer Stories</a>
               </li>
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Knowledge Base</a>
+                <a href="#" className="text-silver hover:text-blue-600 transition duration-150 ease-in-out">Knowledge Base</a>
               </li>
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Contact Us</a>
+                <a href="#" className="text-silver hover:text-blue-600 transition duration-150 ease-in-out">Contact Us</a>
               </li>
             </ul>
           </div>
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-sm text-slate-800 font-semibold mb-2">Products</h6>
+            <h6 className="text-sm text-slate-100 font-semibold mb-2">Products</h6>
             <ul className="text-sm font-medium space-y-2">
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Corporate Partners</a>
+                <a href="#" className="text-silver hover:text-blue-600 transition duration-150 ease-in-out">Corporate Partners</a>
               </li>
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Secure Identity</a>
+                <a href="#" className="text-silver hover:text-blue-600 transition duration-150 ease-in-out">Secure Identity</a>
               </li>
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Legal Help</a>
+                <a href="#" className="text-silver hover:text-blue-600 transition duration-150 ease-in-out">Legal Help</a>
               </li>
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">First Capital</a>
+                <a href="#" className="text-silver hover:text-blue-600 transition duration-150 ease-in-out">First Capital</a>
               </li>
             </ul>
           </div>
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-sm text-slate-800 font-semibold mb-2">Company</h6>
+            <h6 className="text-sm text-slate-100 font-semibold mb-2">Company</h6>
             <ul className="text-sm font-medium space-y-2">
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">About Us</a>
+                <a href="#" className="text-silver hover:text-blue-600 transition duration-150 ease-in-out">About Us</a>
               </li>
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Careers</a>
+                <a href="#" className="text-silver hover:text-blue-600 transition duration-150 ease-in-out">Careers</a>
               </li>
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Terms of Use</a>
+                <a href="#" className="text-silver hover:text-blue-600 transition duration-150 ease-in-out">Terms of Use</a>
               </li>
             </ul>
           </div>
@@ -91,7 +91,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom area */}
-        <div className="md:flex md:items-center md:justify-between py-6 md:py-8 border-t border-slate-200">
+        <div className="md:flex md:items-center md:justify-between py-6 md:py-8 border-t border-slate-700">
 
           {/* Social links */}
           <ul className="flex space-x-6 mb-4 md:order-1 md:ml-4 md:mb-0">
@@ -126,7 +126,7 @@ export default function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-slate-500 mr-4">© Cruip.com. All rights reserved.</div>
+          <div className="text-sm text-silver mr-4">© Cruip.com. All rights reserved.</div>
 
         </div>
 

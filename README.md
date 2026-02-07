@@ -26,7 +26,7 @@ pnpm dev
 
 - **DM Mono Medium** — Logo wordmark
 - **Inter** — Body text
-- **Playfair Display** — Display / headings
+- **DM Sans** — Display / headings
 
 ### Logo
 

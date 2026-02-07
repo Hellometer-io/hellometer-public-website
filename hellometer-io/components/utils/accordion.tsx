@@ -27,7 +27,7 @@ export default function Accordion({
   return (
     <Component>
       <button
-        className="h4 font-playfair-display flex items-center justify-between w-full text-left py-5"
+        className="h4 font-dm-sans flex items-center justify-between w-full text-left py-5"
         onClick={(e) => { e.preventDefault(); setAccordionOpen(!accordionOpen); }}
         aria-expanded={accordionOpen}
       >

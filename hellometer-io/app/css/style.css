@@ -16,13 +16,23 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-slate-900: #101d2d;
+  /* Blue scale — centered on Hellometer Blue */
+  --color-blue-300: #7DC4F5;
+  --color-blue-500: #2897EC;
+  --color-blue-600: #2897EC;
+  --color-blue-700: #1E7BC5;
 
-  --color-blue-500: #5696ff;
-  --color-blue-600: #2174ea;
+  /* Dark backgrounds */
+  --color-slate-900: #0B1A2E;
+  --color-slate-800: #0F2035;
+
+  /* Brand tokens */
+  --color-navy: #0B1A2E;
+  --color-almost-black: #0A0E14;
+  --color-silver: #B0BEC5;
 
   --font-inter: Inter, sans-serif;
-  --font-playfair-display: Playfair Display, serif;
+  --font-dm-sans: DM Sans, sans-serif;
 
   --text-xs: 0.75rem;
   --text-xs--line-height: 1.5;

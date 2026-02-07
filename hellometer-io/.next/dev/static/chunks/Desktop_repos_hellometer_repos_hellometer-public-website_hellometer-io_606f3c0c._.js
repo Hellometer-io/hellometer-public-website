@@ -285,10 +285,7 @@ function HeroHome() {
                                             "Making Quick Service",
                                             ' ',
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$repos$2f$hellometer_repos$2f$hellometer$2d$public$2d$website$2f$hellometer$2d$io$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$3_react$40$19$2e$2$2e$3_$5f$react$40$19$2e$2$2e$3$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: `italic transition-opacity duration-600 ${fade ? 'opacity-100' : 'opacity-0'}`,
-                                                style: {
-                                                    color: '#2897EC'
-                                                },
+                                                className: `italic transition-opacity duration-600 text-blue-500 ${fade ? 'opacity-100' : 'opacity-0'}`,
                                                 children: adjectives[currentIndex]
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/components/hero-home.tsx",
@@ -433,7 +430,7 @@ function ContactForm() {
                         className: "max-w-3xl mx-auto text-center pb-12",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$repos$2f$hellometer_repos$2f$hellometer$2d$public$2d$website$2f$hellometer$2d$io$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$3_react$40$19$2e$2$2e$3_$5f$react$40$19$2e$2$2e$3$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "h2 font-playfair-display text-slate-100",
+                                className: "h2 font-dm-sans text-slate-100",
                                 children: "Get in Touch"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/components/contact-form.tsx",

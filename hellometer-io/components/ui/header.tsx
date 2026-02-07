@@ -19,12 +19,8 @@ export default function Header({ mode = 'dark' }: {
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
-  // Header bar styles - organized by category for easy editing
-  const headerBarStyles = [
-    // Layout
-    "flex items-center justify-between",
-    "h-16 md:h-20",
-    "px-5 sm:px-6",
+  // Full-width background bar styles
+  const headerBgStyles = [
     // Frosted glass effect
     "backdrop-blur-sm hover:backdrop-blur-xl",
     // Background colors
@@ -32,7 +28,7 @@ export default function Header({ mode = 'dark' }: {
     "dark:bg-slate-900/80 dark:hover:bg-slate-800/95",
     // Border & Shadow (bottom border only)
     "shadow-sm hover:shadow-lg",
-    "border-b border-slate-200/30 hover:border-slate-300/80",
+    "border-b border-silver/30 hover:border-silver/80",
     "dark:border-slate-700/30 dark:hover:border-slate-600/80",
     // Animation
     "transition-all duration-300"
@@ -40,7 +36,8 @@ export default function Header({ mode = 'dark' }: {
 
   return (
     <header className={`fixed top-0 w-full z-30 ${mode !== 'light' && 'dark'}`}>
-      <div className={headerBarStyles}>
+      <div className={headerBgStyles}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16 md:h-20">
 
           {/* Site branding */}
           <div className="shrink-0 mr-4">
@@ -55,23 +52,23 @@ export default function Header({ mode = 'dark' }: {
               {/* Products dropdown */}
               <Dropdown title="Products">
                 <li>
-                  <Link href="/products/drive-thru-timer" className="font-medium text-sm text-gray-600 hover:text-blue-600 flex py-2 px-5 leading-tight">Drive-Thru Timer</Link>
+                  <Link href="/products/drive-thru-timer" className="font-medium text-sm text-navy hover:text-blue-600 flex py-2 px-5 leading-tight">Drive-Thru Timer</Link>
                 </li>
                 <li>
-                  <Link href="/products/lobby-timer" className="font-medium text-sm text-gray-600 hover:text-blue-600 flex py-2 px-5 leading-tight">Lobby Timer</Link>
+                  <Link href="/products/lobby-timer" className="font-medium text-sm text-navy hover:text-blue-600 flex py-2 px-5 leading-tight">Lobby Timer</Link>
                 </li>
                 <li>
-                  <Link href="/products/loss-prevention" className="font-medium text-sm text-gray-600 hover:text-blue-600 flex py-2 px-5 leading-tight">Loss Prevention</Link>
+                  <Link href="/products/loss-prevention" className="font-medium text-sm text-navy hover:text-blue-600 flex py-2 px-5 leading-tight">Loss Prevention</Link>
                 </li>
                 <li>
-                  <Link href="/products/kitchen-monitoring" className="font-medium text-sm text-gray-600 hover:text-blue-600 flex py-2 px-5 leading-tight">Kitchen Monitoring</Link>
+                  <Link href="/products/kitchen-monitoring" className="font-medium text-sm text-navy hover:text-blue-600 flex py-2 px-5 leading-tight">Kitchen Monitoring</Link>
                 </li>
               </Dropdown>
               <li>
-                <Link href="/blog" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Blog</Link>
+                <Link href="/blog" className="font-medium text-navy hover:text-blue-600 dark:text-silver dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Blog</Link>
               </li>
               <li>
-                <Link href="/about" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">About</Link>
+                <Link href="/about" className="font-medium text-navy hover:text-blue-600 dark:text-silver dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">About</Link>
               </li>
             </ul>
 
@@ -88,6 +85,7 @@ export default function Header({ mode = 'dark' }: {
 
           <MobileMenu />
 
+        </div>
       </div>
     </header>
   )

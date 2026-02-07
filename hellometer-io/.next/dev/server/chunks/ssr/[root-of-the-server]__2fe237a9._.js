@@ -67,7 +67,7 @@ function FeaturesBlocks() {
                         className: "max-w-3xl mx-auto text-center pb-12 md:pb-20",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$repos$2f$hellometer_repos$2f$hellometer$2d$public$2d$website$2f$hellometer$2d$io$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$3_react$40$19$2e$2$2e$3_$5f$react$40$19$2e$2$2e$3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "h2 font-playfair-display",
+                                className: "h2 font-dm-sans",
                                 children: "Our Products"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/components/features-blocks.tsx",
@@ -322,7 +322,7 @@ function FeaturesBlocks() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$repos$2f$hellometer_repos$2f$hellometer$2d$public$2d$website$2f$hellometer$2d$io$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$3_react$40$19$2e$2$2e$3_$5f$react$40$19$2e$2$2e$3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "h4 font-playfair-display mb-2",
+                                        className: "h4 font-dm-sans mb-2",
                                         children: "Drive-Thru Timer"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/components/features-blocks.tsx",
@@ -582,7 +582,7 @@ function FeaturesBlocks() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$repos$2f$hellometer_repos$2f$hellometer$2d$public$2d$website$2f$hellometer$2d$io$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$3_react$40$19$2e$2$2e$3_$5f$react$40$19$2e$2$2e$3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                 d: "M32.5 36a3.5 3.5 0 110-7 3.5 3.5 0 010 7z",
                                                 fillOpacity: ".64",
-                                                fill: "#5091EE"
+                                                fill: "#5BB3F5"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/components/features-blocks.tsx",
                                                 lineNumber: 103,
@@ -595,7 +595,7 @@ function FeaturesBlocks() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$repos$2f$hellometer_repos$2f$hellometer$2d$public$2d$website$2f$hellometer$2d$io$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$3_react$40$19$2e$2$2e$3_$5f$react$40$19$2e$2$2e$3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "h4 font-playfair-display mb-2",
+                                        className: "h4 font-dm-sans mb-2",
                                         children: "Lobby Timer"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/components/features-blocks.tsx",
@@ -842,7 +842,7 @@ function FeaturesBlocks() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$repos$2f$hellometer_repos$2f$hellometer$2d$public$2d$website$2f$hellometer$2d$io$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$3_react$40$19$2e$2$2e$3_$5f$react$40$19$2e$2$2e$3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "h4 font-playfair-display mb-2",
+                                        className: "h4 font-dm-sans mb-2",
                                         children: "Loss Prevention"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/components/features-blocks.tsx",
@@ -1089,7 +1089,7 @@ function FeaturesBlocks() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$repos$2f$hellometer_repos$2f$hellometer$2d$public$2d$website$2f$hellometer$2d$io$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$3_react$40$19$2e$2$2e$3_$5f$react$40$19$2e$2$2e$3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "h4 font-playfair-display mb-2",
+                                        className: "h4 font-dm-sans mb-2",
                                         children: "Back of House / Kitchen Monitoring"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/components/features-blocks.tsx",

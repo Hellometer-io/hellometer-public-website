@@ -36,7 +36,7 @@ export default function MobileMenu() {
       {/* Hamburger button */}
       <button
         ref={trigger}
-        className={`group inline-flex w-8 h-8 text-slate-300 hover:text-white text-center items-center justify-center transition`}
+        className={`group inline-flex w-8 h-8 text-navy dark:text-slate-300 hover:text-blue-600 dark:hover:text-white text-center items-center justify-center transition`}
         aria-controls="mobile-nav"
         aria-expanded={mobileNavOpen}
         onClick={() => setMobileNavOpen(!mobileNavOpen)}
@@ -78,35 +78,33 @@ export default function MobileMenu() {
           className="absolute top-full h-screen pb-16 z-20 left-0 w-full overflow-scroll bg-white transform transition ease-out duration-200 data-enter:data-closed:-translate-y-2 data-closed:opacity-0"
         >        
           <ul className="px-5 py-2">
-            <li>
-              <Link href="/pricing" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Pricing</Link>
-            </li>
-            <li>
-              <Link href="/about" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>About</Link>
-            </li>
-            <li>
-              <Link href="/blog" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Blog</Link>
-            </li>
-            <li>
-              <Link href="/wall-of-love" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Wall of Love</Link>
-            </li>
-            <li className="py-2 my-2 border-t border-b border-gray-200">
-              <span className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Resources</span>
+            {/* Products section */}
+            <li className="py-2 my-2 border-b border-silver">
+              <span className="flex font-medium text-navy py-2">Products</span>
               <ul className="pl-4">
                 <li>
-                  <Link href="/404" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>404</Link>
+                  <Link href="/products/drive-thru-timer" className="text-sm flex font-medium text-navy/70 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Drive-Thru Timer</Link>
                 </li>
                 <li>
-                  <Link href="/support" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Support</Link>
+                  <Link href="/products/lobby-timer" className="text-sm flex font-medium text-navy/70 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Lobby Timer</Link>
+                </li>
+                <li>
+                  <Link href="/products/loss-prevention" className="text-sm flex font-medium text-navy/70 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Loss Prevention</Link>
+                </li>
+                <li>
+                  <Link href="/products/kitchen-monitoring" className="text-sm flex font-medium text-navy/70 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Kitchen Monitoring</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link href="/signin" className="flex font-medium w-full text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Sign in</Link>
+              <Link href="/blog" className="flex font-medium text-navy hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Blog</Link>
             </li>
             <li>
-              <Link href="/request-demo" className="flex font-medium text-blue-600 py-2 group" onClick={() => setMobileNavOpen(false)}>
-                Request Demo <span className="tracking-normal text-blue-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+              <Link href="/about" className="flex font-medium text-navy hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>About</Link>
+            </li>
+            <li className="pt-4 mt-2 border-t border-silver">
+              <Link href="/schedule-demo" className="flex font-medium text-blue-600 hover:text-white hover:bg-blue-600 border-2 border-blue-600 rounded-md px-4 py-2 justify-center transition duration-150 ease-in-out group" onClick={() => setMobileNavOpen(false)}>
+                Schedule a Demo <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">→</span>
               </Link>
             </li>
           </ul>

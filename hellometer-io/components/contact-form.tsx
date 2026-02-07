@@ -28,7 +28,7 @@ export default function ContactForm() {
         <div className="py-12 md:py-20">
 
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h2 className="h2 font-playfair-display text-slate-100">Get in Touch</h2>
+            <h2 className="h2 font-dm-sans text-slate-100">Get in Touch</h2>
             <p className="text-xl text-slate-400 mt-4">
               Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
             </p>

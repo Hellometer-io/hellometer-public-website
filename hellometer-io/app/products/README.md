@@ -79,7 +79,7 @@ All product pages follow the same 3-section structure for consistency:
 
 ### Typography
 - Headlines: `font-inter` with `font-bold`
-- Subheadings: `font-playfair-display` (serif for elegance)
+- Subheadings: `font-dm-sans` (serif for elegance)
 - Body text: Default `font-inter`
 
 ### Spacing

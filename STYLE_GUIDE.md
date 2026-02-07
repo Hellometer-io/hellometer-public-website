@@ -12,13 +12,25 @@
 | ![#0B1A2E](https://img.shields.io/badge/-%20-0B1A2E) | Dark Navy       | `#0B1A2E` | Dark backgrounds, section fills                |
 | ![#0A0E14](https://img.shields.io/badge/-%20-0A0E14) | Almost Black    | `#0A0E14` | Deepest backgrounds, footer, high contrast     |
 
-### Tailwind Theme Overrides
+### Tailwind Color Mapping
 
-| Swatch | Name      | Hex       | Usage                          |
-| ------ | --------- | --------- | ------------------------------ |
-| ![#5696FF](https://img.shields.io/badge/-%20-5696FF) | Blue 500  | `#5696FF` | Tailwind `blue-500`            |
-| ![#2174EA](https://img.shields.io/badge/-%20-2174EA) | Blue 600  | `#2174EA` | Tailwind `blue-600`, CTAs      |
-| ![#101D2D](https://img.shields.io/badge/-%20-101D2D) | Slate 900 | `#101D2D` | Tailwind `slate-900`           |
+Brand colors are mapped to Tailwind classes via `hellometer-io/app/css/style.css`:
+
+| Brand Color     | Tailwind Class              | Hex       |
+| --------------- | --------------------------- | --------- |
+| Hellometer Blue | `blue-500`, `blue-600`      | `#2897EC` |
+| Blue (hover)    | `blue-700`                  | `#1E7BC5` |
+| Blue (light)    | `blue-300`                  | `#7DC4F5` |
+| Dark Navy       | `slate-900`, `navy`         | `#0B1A2E` |
+| Almost Black    | `almost-black`              | `#0A0E14` |
+| Silver          | `silver`                    | `#B0BEC5` |
+
+**Usage examples:**
+- Primary CTA: `bg-blue-600 hover:bg-blue-700 text-white`
+- Dark section background: `bg-slate-900` (Dark Navy)
+- Footer background: `bg-almost-black`
+- Borders: `border-silver`
+- Body text: `text-navy`
 
 ## Typography
 
@@ -26,9 +38,9 @@
 | ---------------- | ------- | -------------------------- | ------------------ |
 | DM Mono          | Medium  | —                          | Logo wordmark      |
 | Inter            | —       | `--font-inter`             | Body text (default)|
-| Playfair Display | —       | `--font-playfair-display`  | Display / headings |
+| DM Sans          | —       | `--font-dm-sans`           | Display / headings |
 
-Inter and Playfair Display are loaded via Google Fonts with `display: swap`.
+Inter and DM Sans are loaded via Google Fonts with `display: swap`.
 
 ### Text Scale
 
