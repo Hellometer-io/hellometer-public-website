@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/products/layout,_N_T_/products/loss-prevention/layout,_N_T_/products/loss-prevention/page,_N_T_/products/loss-prevention"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/products/loss-prevention/__PAGE__",
+    "/products/loss-prevention",
+    "/products",
+    "/_index",
+    "/_head"
+  ]
+}

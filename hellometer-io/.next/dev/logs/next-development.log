@@ -1,9 +1,127 @@
-[00:00:00.403] Server  LOG      ✓ Ready in 280ms
-[00:00:02.040] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:02.081] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:02.167] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometer_glyph.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:02.167] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometerCV_whitelogo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:03.181] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometer_glyph.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:03.182] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometerCV_whitelogo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:51.201] Server  LOG      ✓ Compiled in 16ms
-[00:00:58.629] Server  LOG      ✓ Compiled in 14ms
+[00:00:00.683] Server  LOG      ✓ Ready in 479ms
+[00:00:08.539] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.676] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometer_glyph.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:08.676] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometerCV_whitelogo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:12.646] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:12.759] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometer_glyph.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:12.759] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometerCV_whitelogo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:12.759] Browser WARN    Image with src "/images/logos/hellometerCV_whitelogo.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:50.856] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:50.976] Browser WARN    Image with src "/images/logos/hellometerCV_whitelogo.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:50.976] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometer_glyph.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:50.976] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometerCV_whitelogo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:52.677] Server  LOG      ✓ Compiled in 46ms
+[00:11:06.329] Server  LOG      ✓ Compiled in 35ms
+[00:11:10.504] Server  LOG      ✓ Compiled in 36ms
+[00:11:41.818] Server  LOG      ✓ Compiled in 41ms
+[00:14:51.155] Server  LOG      ✓ Compiled in 35ms
+[00:19:10.110] Server  LOG      ✓ Compiled in 85ms
+[00:20:31.307] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:31.442] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometer_glyph.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:20:31.442] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometerCV_whitelogo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:25:24.478] Server  LOG      ✓ Compiled in 35ms
+[00:25:51.942] Server  LOG      ✓ Compiled in 31ms
+[00:31:11.940] Server  LOG      ✓ Compiled in 39ms
+[00:31:45.105] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:45.216] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometer_glyph.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:31:45.216] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometerCV_whitelogo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:37:05.116] Server  LOG      ✓ Compiled in 45ms
+[00:37:05.286] Browser WARN    Image with src "/images/investors/y-combinator.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:37:34.667] Server  LOG      ✓ Compiled in 39ms
+[00:38:20.792] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:20.925] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometer_glyph.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:38:20.925] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometerCV_whitelogo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:38:20.925] Browser WARN    Image with src "/images/investors/y-combinator.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:39:59.301] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:59.426] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometer_glyph.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:39:59.426] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometerCV_whitelogo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:39:59.426] Browser WARN    Image with src "/images/logos/hellometerCV_whitelogo.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:52:42.702] Browser WARN    Image with src "/images/investors/y-combinator.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:06:56.812] Server  LOG      ✓ Compiled in 286ms
+[01:07:24.528] Server  LOG      ✓ Compiled in 32ms
+[01:07:39.113] Server  LOG      ✓ Compiled in 45ms
+[01:07:55.529] Server  LOG      ✓ Compiled in 40ms
+[01:07:55.537] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/node_modules/.pnpm/next@16.0.10_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:07:55.722] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:55.849] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometer_glyph.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:07:55.849] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometerCV_whitelogo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:08:17.846] Server  LOG      ✓ Compiled in 61ms
+[01:09:50.471] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:09:50.620] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometer_glyph.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:50.620] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometerCV_whitelogo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:10:10.737] Server  WARN     ⚠ ./Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/node_modules/.pnpm/rehype-pretty-code@0.14.1_shiki@3.22.0/node_modules/rehype-pretty-code/dist
+Package shiki can't be external
+The request shiki matches serverExternalPackages (or the default list).
+The request could not be resolved by Node.js from the project directory.
+Packages that should be external need to be installed in the project directory, so they can be resolved from the output files.
+Try to install it into the project directory by running npm install shiki from the project directory.
+
+
+[01:10:10.737] Server  WARN     ⚠ ./Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/node_modules/.pnpm/shiki@3.22.0/node_modules/shiki/dist
+Package shiki can't be external
+The request shiki/wasm matches serverExternalPackages (or the default list).
+The request could not be resolved by Node.js from the project directory.
+Packages that should be external need to be installed in the project directory, so they can be resolved from the output files.
+Try to install it into the project directory by running npm install shiki from the project directory.
+
+
+[01:12:25.418] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:25.531] Browser WARN    Image with src "/images/logos/hellometerCV_whitelogo.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:12:25.531] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometer_glyph.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:12:25.531] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometerCV_whitelogo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:15:48.233] Server  WARN     ⚠ ./Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/node_modules/.pnpm/rehype-pretty-code@0.14.1_shiki@3.22.0/node_modules/rehype-pretty-code/dist
+Package shiki can't be external
+The request shiki matches serverExternalPackages (or the default list).
+The request could not be resolved by Node.js from the project directory.
+Packages that should be external need to be installed in the project directory, so they can be resolved from the output files.
+Try to install it into the project directory by running npm install shiki from the project directory.
+
+
+[01:15:48.240] Server  WARN     ⚠ ./Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/node_modules/.pnpm/shiki@3.22.0/node_modules/shiki/dist
+Package shiki can't be external
+The request shiki/wasm matches serverExternalPackages (or the default list).
+The request could not be resolved by Node.js from the project directory.
+Packages that should be external need to be installed in the project directory, so they can be resolved from the output files.
+Try to install it into the project directory by running npm install shiki from the project directory.
+
+
+[01:16:33.490] Server  WARN     ⚠ ./Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/node_modules/.pnpm/rehype-pretty-code@0.14.1_shiki@3.22.0/node_modules/rehype-pretty-code/dist
+Package shiki can't be external
+The request shiki matches serverExternalPackages (or the default list).
+The request could not be resolved by Node.js from the project directory.
+Packages that should be external need to be installed in the project directory, so they can be resolved from the output files.
+Try to install it into the project directory by running npm install shiki from the project directory.
+
+
+[01:16:33.491] Server  WARN     ⚠ ./Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/node_modules/.pnpm/shiki@3.22.0/node_modules/shiki/dist
+Package shiki can't be external
+The request shiki/wasm matches serverExternalPackages (or the default list).
+The request could not be resolved by Node.js from the project directory.
+Packages that should be external need to be installed in the project directory, so they can be resolved from the output files.
+Try to install it into the project directory by running npm install shiki from the project directory.
+
+
+[01:22:58.017] Server  LOG      ✓ Compiled in 596ms
+[01:23:13.810] Server  WARN     ⚠ ./Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/node_modules/.pnpm/rehype-pretty-code@0.14.1_shiki@3.22.0/node_modules/rehype-pretty-code/dist
+Package shiki can't be external
+The request shiki matches serverExternalPackages (or the default list).
+The request could not be resolved by Node.js from the project directory.
+Packages that should be external need to be installed in the project directory, so they can be resolved from the output files.
+Try to install it into the project directory by running npm install shiki from the project directory.
+
+
+[01:23:13.811] Server  WARN     ⚠ ./Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/node_modules/.pnpm/shiki@3.22.0/node_modules/shiki/dist
+Package shiki can't be external
+The request shiki/wasm matches serverExternalPackages (or the default list).
+The request could not be resolved by Node.js from the project directory.
+Packages that should be external need to be installed in the project directory, so they can be resolved from the output files.
+Try to install it into the project directory by running npm install shiki from the project directory.
+
+
+[01:23:13.822] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:23:13.945] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometer_glyph.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:23:13.945] Browser WARN    Image with src "http://localhost:3000/images/logos/hellometerCV_whitelogo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

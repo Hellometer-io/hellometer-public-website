@@ -1,0 +1,20 @@
+{
+  "node": {
+    "60fcf228f68fbac4e0202c3ea9f8869d168a1f747a": {
+      "workers": {
+        "app/schedule-demo/page": {
+          "moduleId": "[project]/Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/.next-internal/server/app/schedule-demo/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/app/actions/schedule-demo.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "submitDemoRequest",
+          "filename": "Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/app/actions/schedule-demo.ts"
+        }
+      },
+      "layer": {
+        "app/schedule-demo/page": "action-browser"
+      },
+      "exportedName": "submitDemoRequest",
+      "filename": "Desktop/repos/hellometer_repos/hellometer-public-website/hellometer-io/app/actions/schedule-demo.ts"
+    }
+  },
+  "edge": {}
+}

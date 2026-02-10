@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "d1b72cfdd9adc209fbf8c70e76b42e5a",
-    "previewModeSigningKey": "a02f422e9da166476ec33705b38763f2751e7e4bb6077f44b8aa5a3daa3d8507",
-    "previewModeEncryptionKey": "32a94dc8f11da1b7767754b83fcc1ff568f04e3a238e7afda17f3d610699c24f"
-  }
-}
+{"version":4,"routes":{"/blog/how-ai-is-transforming-drive-thru-operations":{}},"dynamicRoutes":{"/blog/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/blog/[slug]","routeRegex":"^\\/blog\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"b05fedc83b95af6e4e27fa559c806857","previewModeSigningKey":"9dc45d34432d89bb88d5b710f9f2b2e5b14897a7d93279583aa9fca2fbf8c31a","previewModeEncryptionKey":"289a5b8a64e4ba24ab916f9f94042b114006a135f88f89b493cbeef889ae01fb"}}

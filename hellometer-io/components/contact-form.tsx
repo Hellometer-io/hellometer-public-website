@@ -1,25 +1,17 @@
 'use client'
 
-import { useState } from 'react'
+import { useActionState, useRef } from 'react'
+import { submitContactForm, type ContactFormState } from '@/app/actions/contact'
 
 export default function ContactForm() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  })
+  const [state, formAction, isPending] = useActionState<ContactFormState, FormData>(
+    submitContactForm,
+    null
+  )
+  const formRef = useRef<HTMLFormElement>(null)
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission here
-    console.log('Form submitted:', formData)
-  }
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    })
+  if (state?.success) {
+    formRef.current?.reset()
   }
 
   return (
@@ -34,66 +26,87 @@ export default function ContactForm() {
             </p>
           </div>
 
-          <form onSubmit={handleSubmit} className="max-w-xl mx-auto">
-            <div className="space-y-4">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-slate-300 mb-2">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  className="form-input w-full bg-slate-800 border border-slate-700 focus:border-blue-500 text-white placeholder-slate-500"
-                  placeholder="Your name"
-                  required
-                />
-              </div>
-
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-2">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  className="form-input w-full bg-slate-800 border border-slate-700 focus:border-blue-500 text-white placeholder-slate-500"
-                  placeholder="your@email.com"
-                  required
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-slate-300 mb-2">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  rows={6}
-                  className="form-textarea w-full bg-slate-800 border border-slate-700 focus:border-blue-500 text-white placeholder-slate-500"
-                  placeholder="Your message..."
-                  required
-                />
-              </div>
-
-              <div className="mt-6">
+          {state?.success ? (
+            <div className="max-w-xl mx-auto text-center">
+              <div className="bg-green-900/30 border border-green-700 rounded-lg p-6">
+                <p className="text-green-400 text-lg font-medium">Message sent successfully!</p>
+                <p className="text-slate-400 mt-2">We'll get back to you as soon as possible.</p>
                 <button
-                  type="submit"
-                  className="btn text-white bg-blue-600 hover:bg-blue-700 w-full group"
+                  type="button"
+                  onClick={() => window.location.reload()}
+                  className="mt-4 text-blue-400 hover:text-blue-300 underline text-sm"
                 >
-                  Send Message <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                  Send another message
                 </button>
               </div>
             </div>
-          </form>
+          ) : (
+            <form ref={formRef} action={formAction} className="max-w-xl mx-auto">
+              <div className="space-y-4">
+
+                {state?.error && (
+                  <div className="bg-red-900/30 border border-red-700 rounded-lg p-4">
+                    <p className="text-red-400 text-sm">{state.error}</p>
+                  </div>
+                )}
+
+                <div>
+                  <label htmlFor="name" className="block text-sm font-medium text-slate-300 mb-2">
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    className="form-input w-full bg-slate-800 border border-slate-700 focus:border-blue-500 text-white placeholder-slate-500"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-2">
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    className="form-input w-full bg-slate-800 border border-slate-700 focus:border-blue-500 text-white placeholder-slate-500"
+                    placeholder="your@email.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="message" className="block text-sm font-medium text-slate-300 mb-2">
+                    Message
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows={6}
+                    className="form-textarea w-full bg-slate-800 border border-slate-700 focus:border-blue-500 text-white placeholder-slate-500"
+                    placeholder="Your message..."
+                    required
+                  />
+                </div>
+
+                <div className="mt-6">
+                  <button
+                    type="submit"
+                    disabled={isPending}
+                    className="btn text-white bg-blue-600 hover:bg-blue-700 w-full group disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    {isPending ? 'Sending...' : 'Send Message'}{' '}
+                    {!isPending && (
+                      <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                    )}
+                  </button>
+                </div>
+              </div>
+            </form>
+          )}
 
         </div>
       </div>

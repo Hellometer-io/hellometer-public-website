@@ -3,7 +3,8 @@
     "allow": [
       "Bash(node:*)",
       "Bash(npm:*)",
-      "Bash(tree:*)"
+      "Bash(tree:*)",
+      "Bash(ls:*)"
     ]
   }
 }
