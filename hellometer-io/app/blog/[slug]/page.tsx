@@ -17,7 +17,7 @@ export async function generateMetadata(
   const post = getBlogPosts().find((p) => p.slug === params.slug)
   if (!post) return
   return {
-    title: `${post.metadata.title} - Hellometer Blog`,
+    title: post.metadata.title,
     description: post.metadata.summary,
   }
 }

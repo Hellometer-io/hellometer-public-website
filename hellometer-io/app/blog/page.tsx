@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Blog - Hellometer',
+  title: 'Blog',
   description: 'Insights on drive-thru optimization, QSR operations, and AI-powered restaurant technology.',
 }
 

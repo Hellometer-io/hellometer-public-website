@@ -26,7 +26,7 @@ export async function submitContactForm(
   }
 
   try {
-    await resend.emails.send({
+    const { error } = await resend.emails.send({
       from: 'Hellometer Contact <onboarding@resend.dev>',
       to: process.env.CONTACT_EMAIL!,
       subject: `Contact form: ${name}`,
@@ -34,8 +34,14 @@ export async function submitContactForm(
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
     })
 
+    if (error) {
+      console.error('Resend error:', error)
+      return { success: false, error: 'Failed to send message. Please try again later.' }
+    }
+
     return { success: true }
-  } catch {
+  } catch (err) {
+    console.error('Resend error:', err)
     return { success: false, error: 'Failed to send message. Please try again later.' }
   }
 }

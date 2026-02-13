@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Schedule a Demo - Hellometer',
+  title: 'Schedule a Demo',
   description: 'Schedule a personalized demo of Hellometer for your team.',
 }
 

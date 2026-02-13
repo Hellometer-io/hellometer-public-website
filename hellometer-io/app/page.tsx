@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Hellometer - Your Tagline Here',
-  description: 'Hellometer description',
+  title: 'Hellometer | AI-Powered Restaurant Operations',
+  description: 'AI-powered operations platform for quick-service restaurants. Real-time drive-thru timing, kitchen monitoring, and loss prevention.',
 }
 
 import Hero from '@/components/hero-home'

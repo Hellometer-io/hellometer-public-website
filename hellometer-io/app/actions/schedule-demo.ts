@@ -29,7 +29,7 @@ export async function submitDemoRequest(
   }
 
   try {
-    await resend.emails.send({
+    const { error } = await resend.emails.send({
       from: 'Hellometer Demo <onboarding@resend.dev>',
       to: process.env.CONTACT_EMAIL!,
       subject: `Demo request: ${company} (${name})`,
@@ -44,8 +44,14 @@ export async function submitDemoRequest(
       ].filter(Boolean).join('\n'),
     })
 
+    if (error) {
+      console.error('Resend error:', error)
+      return { success: false, error: 'Failed to submit request. Please try again later.' }
+    }
+
     return { success: true }
-  } catch {
+  } catch (err) {
+    console.error('Resend error:', err)
     return { success: false, error: 'Failed to submit request. Please try again later.' }
   }
 }

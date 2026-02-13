@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'About - Hellometer',
+  title: 'About',
   description: 'Learn about Hellometer, our story, and the team behind AI-powered restaurant operations.',
 }
 

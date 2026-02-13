@@ -12,11 +12,49 @@ pnpm dev
 
 ## TODO
 
-Landing page metadata is still placeholder — the title is "Hellometer - Your Tagline Here" and the description is "Hellometer description". This shows in browser tabs and link previews when shared.
-
 Video files are large — especially make_line_kitchen.mp4 at ~25 MB. This could make first loads slow on mobile.
 
 Some dead code — unused components like FeaturesHome (which still has Lorem ipsum text) are sitting in the codebase.
+
+## Deployment
+
+The site is hosted on [Vercel](https://vercel.com/) with the domain managed through [GoDaddy](https://www.godaddy.com/).
+
+### Vercel
+
+- **Project root directory:** `hellometer-io` (configured in Vercel project settings since the repo is a monorepo)
+- **Framework:** Next.js (auto-detected)
+- **Build command:** `pnpm run build`
+
+#### Deploy manually via CLI
+
+```bash
+cd hellometer-io
+vercel          # preview deploy
+vercel --prod   # production deploy
+```
+
+#### Environment variables
+
+Set these in **Vercel Dashboard > Project > Settings > Environment Variables**:
+
+| Variable | Description |
+| -------- | ----------- |
+| `RESEND_API_KEY` | Resend API key for contact/demo form emails |
+| `CONTACT_EMAIL` | Recipient email for form submissions |
+
+Or via CLI: `vercel env add RESEND_API_KEY`
+
+### Domain (GoDaddy)
+
+The `hellometer.ai` domain is registered on GoDaddy. DNS records point it to Vercel:
+
+| Type | Name | Value |
+| ---- | ---- | ----- |
+| A | @ | `76.76.21.21` |
+| CNAME | www | `cname.vercel-dns.com` |
+
+Vercel auto-provisions SSL once DNS propagates. These records are managed in **GoDaddy > DNS Management** for `hellometer.ai`.
 
 ## Contact Form
 

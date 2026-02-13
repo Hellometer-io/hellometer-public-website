@@ -20,8 +20,11 @@ const dmSans = DM_Sans({
 })
 
 export const metadata = {
-  title: 'Hellometer',
-  description: 'Hellometer - Your description here',
+  title: {
+    default: 'Hellometer',
+    template: '%s | Hellometer',
+  },
+  description: 'AI-powered operations platform for quick-service restaurants. Real-time drive-thru timing, kitchen monitoring, and loss prevention.',
 }
 
 export default function RootLayout({
