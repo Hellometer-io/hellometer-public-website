@@ -103,9 +103,9 @@ export default function ProductPageTemplate({ data }: { data: ProductData }) {
       <section className="bg-slate-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="py-12 md:py-20">
-            <div className="grid gap-8 md:grid-cols-4 text-center">
+            <div className="flex flex-wrap justify-center gap-8 text-center">
               {data.benefits.map((benefit) => (
-                <div key={benefit.description}>
+                <div key={benefit.description} className="w-48">
                   <div className="text-4xl font-bold text-blue-400 mb-2">{benefit.metric}</div>
                   <p className="text-slate-300">{benefit.description}</p>
                 </div>

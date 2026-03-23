@@ -19,12 +19,23 @@ const dmSans = DM_Sans({
   display: 'swap'
 })
 
+const description = 'AI-powered operations platform for quick-service restaurants. Real-time drive-thru timing, kitchen monitoring, and loss prevention.'
+
 export const metadata = {
   title: {
     default: 'Hellometer',
     template: '%s | Hellometer',
   },
-  description: 'AI-powered operations platform for quick-service restaurants. Real-time drive-thru timing, kitchen monitoring, and loss prevention.',
+  description,
+  metadataBase: new URL('https://hellometer.ai'),
+  openGraph: {
+    type: 'website',
+    siteName: 'Hellometer',
+    description,
+  },
+  twitter: {
+    card: 'summary_large_image' as const,
+  },
 }
 
 export default function RootLayout({

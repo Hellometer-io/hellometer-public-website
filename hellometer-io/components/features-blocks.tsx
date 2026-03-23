@@ -34,7 +34,7 @@ export default function FeaturesBlocks() {
               return (
                 <div
                   key={tile.slug}
-                  className="relative"
+                  className="relative rounded-xl p-6 -m-6 transition-all duration-200 hover:bg-slate-100 hover:shadow-lg"
                   data-aos="fade-up"
                   data-aos-anchor="[data-aos-id-blocks]"
                   {...(tile.delay ? { 'data-aos-delay': tile.delay } : {})}

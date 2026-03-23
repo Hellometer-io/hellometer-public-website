@@ -30,8 +30,8 @@ export async function submitDemoRequest(
 
   try {
     const { error } = await resend.emails.send({
-      from: 'Hellometer Demo <onboarding@resend.dev>',
-      to: process.env.CONTACT_EMAIL!,
+      from: 'Hellometer Demo <contact@hellometer.io>',
+      to: [process.env.CONTACT_EMAIL!, 'support@hellometer.io'],
       subject: `Demo request: ${company} (${name})`,
       replyTo: email,
       text: [

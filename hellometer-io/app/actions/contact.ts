@@ -27,8 +27,8 @@ export async function submitContactForm(
 
   try {
     const { error } = await resend.emails.send({
-      from: 'Hellometer Contact <onboarding@resend.dev>',
-      to: process.env.CONTACT_EMAIL!,
+      from: 'Hellometer Contact <contact@hellometer.io>',
+      to: [process.env.CONTACT_EMAIL!, 'support@hellometer.io'],
       subject: `Contact form: ${name}`,
       replyTo: email,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,

@@ -40,13 +40,13 @@ export const products: Record<string, ProductData> = {
         step: '1',
         title: 'Install Sensors',
         description:
-          'Hellometer cameras are installed at key points along your drive-thru lane. Setup is quick and non-disruptive to your daily operations.',
+          'Hellometer cameras are installed at key points along your drive-thru lane.',
       },
       {
         step: '2',
         title: 'Track Vehicles Automatically',
         description:
-          'Our AI detects each vehicle as it enters the lane and tracks it through every station — menu board, payment window, and pickup.',
+          'Our AI detects each vehicle as it enters the lane and tracks it through every station.',
       },
       {
         step: '3',
@@ -59,7 +59,7 @@ export const products: Record<string, ProductData> = {
       {
         heading: 'Real-Time Vehicle Tracking',
         paragraphs: [
-          'Hellometer uses computer vision to detect and track every vehicle from the moment it enters your drive-thru lane. Each car is assigned a unique identifier and monitored through every station — order point, payment window, and pickup — giving you a precise, second-by-second timeline of each transaction.',
+          "Hellometer's AI Computer Vision System detects and tracks every vehicle from the moment it enters your drive-thru lane. Each car is assigned a unique identifier and monitored through every station — order point, payment window, and pickup — giving you a precise, second-by-second timeline of each transaction.",
           'Unlike legacy timer systems that rely on buried loops or pressure sensors, Hellometer works entirely through cameras. There is no road cutting, no sensor maintenance, and no recalibration. The system adapts to lane changes, dual-lane setups, and even stacked queues without missing a beat.',
           'Managers see a live feed of current vehicles in the lane alongside their elapsed times. When a car stalls or a station falls behind, the dashboard highlights it instantly so your crew can respond before the backup grows.',
         ],
@@ -82,9 +82,8 @@ export const products: Record<string, ProductData> = {
       },
     ],
     benefits: [
-      { metric: '30%', description: 'Faster service times' },
+      { metric: '30s+', description: 'Faster service times' },
       { metric: '95%', description: 'Vehicle detection accuracy' },
-      { metric: '90 days', description: 'Typical ROI timeline' },
       { metric: '24/7', description: 'Continuous monitoring' },
     ],
     ctaText:
